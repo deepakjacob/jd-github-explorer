@@ -9,7 +9,7 @@ A simple way to search github.
 
 ```bash
 # clone our repo
-$ git clone https://github.com/deepakjacob/dj-github-explorer.git my-app
+$ git clone https://github.com/deepakjacob/jd-github-explorer.git my-app
 
 # change directory to your app
 $ cd my-app
