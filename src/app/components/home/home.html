@@ -1,0 +1,10 @@
+<div>
+    <search (repoNameChanged)="repoNameChangeHandler($event)"></search>
+</div>
+
+<div class="row">
+    <div class="col s12 m6" *ngFor="#item of items" >
+        <card [item]="item"></card>
+    </div>
+
+</div>

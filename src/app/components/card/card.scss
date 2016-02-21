@@ -1,0 +1,16 @@
+.card {
+    box-sizing: border-box;
+    //min-height: 220px;
+    //max-height: 220px;
+    //overflow-y: auto;
+}
+
+.card-action {
+    overflow: hidden;
+}
+
+p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
