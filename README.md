@@ -29,13 +29,9 @@ go to [http://localhost:8080](http://localhost:8080) in your browser.
     * [Installing](#installing)
     * [Running the app](#running-the-app)
     * [Developing](#developing)
-    * [Add new components with Angular 2 cli](#add-new-components-services-pipes-with-angular-2-cli)
     * [Testing](#testing)
     * [Documentation](#documentation)
-* [Frequently asked questions](#faq)
-* [TypeScript](#typescript)
-* [License](#license)
-
+    
 # Getting Started
 
 ## Dependencies
@@ -61,13 +57,6 @@ npm start
 It will start a local server using `webpack-dev-server` which will watch, build (in-memory), and reload for you. The port will be displayed to you as `http://localhost:3000`.
 
 ## Developing
-
-### Add new components, services, pipes with Angular 2 cli
-
-* `npm install -g angular-cli` to install Angular 2 cli
-* Add a new component with: `ng generate component my-new-component`
-* Add a new service with: `ng generate service my-new-service`
-* Add a new pipe with: `ng generate pipe my-new-pipe`
 
 Read more at [angular-cli github](https://github.com/angular/angular-cli).
 
@@ -100,13 +89,3 @@ You can generate api docs (using [TypeDoc](http://typedoc.io/)) for your code wi
 ```bash
 npm run docs
 ```
-
-# FAQ
-
-#### How to include external angular 2 libraries ?
-
-It's simple, just install the lib via npm and import it in your code when you need it. Don't forget that you need to configure some external libs in the [bootstrap](https://github.com/preboot/angular2-webpack/blob/master/src/bootstrap.ts) of your application.
-
-# TypeScript
-
-> To take full advantage of TypeScript with autocomplete you would have to use an editor with the correct TypeScript plugins.
