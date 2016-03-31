@@ -1,4 +1,4 @@
-# dj-github-explorer
+# jd-github-explorer
 
 A simple way to search github.
 
